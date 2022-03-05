@@ -1,3 +1,8 @@
+# VS Code
+.vscode/*
+
+# 
+
 # Prerequisites
 *.d
 
@@ -31,8 +36,18 @@
 *.out
 *.app
 
-# CLion
-cmake-build-*/**
-.idea/**/
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
 
-
+# Compiled Builds
+build/
