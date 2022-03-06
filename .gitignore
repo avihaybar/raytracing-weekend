@@ -1,7 +1,7 @@
 # VS Code
 .vscode/*
 
-# 
+#
 
 # Prerequisites
 *.d
@@ -48,6 +48,8 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+cmake-build-debug/
+src/main.dSYM/
 
 # Compiled Builds
-build/
+[Bb]uild/
