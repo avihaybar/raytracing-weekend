@@ -1,3 +1,3 @@
 #!/bin/sh
 
-build/RayTracingWeekend 
+make all && ./WeekendRender && code ./render.ppm
